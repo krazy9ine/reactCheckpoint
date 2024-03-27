@@ -36,3 +36,27 @@
     transform: rotate(360deg);
   }
 }
+
+.card {
+  justify-content: center;
+  align-items: center;
+  margin-left: 34%;
+  margin-top: 5%;
+
+}
+.card:hover {
+  transform: scale(1.2);
+}
+body {
+  margin: 0;
+  height: 100vh;
+  background: #000;
+  overflow: hidden;
+}
+
+#backgroundCanvas,
+#starsCanvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
